@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 
 from backend.process_video import process_video
+IS_CLOUD = os.getenv("STREAMLIT_CLOUD") is not None
 
 # ==============================
 # SESSION STATE
@@ -120,8 +121,15 @@ if uploaded_video and process_btn and not st.session_state.processed:
     with open(video_path, "wb") as f:
         f.write(uploaded_video.getbuffer())
 
-    with st.spinner("Processing video… please wait"):
-        run_dir = process_video(video_path)
+    if IS_CLOUD:
+        st.warning(
+            "🚫 Live video processing is disabled on Streamlit Cloud.\n\n"
+            "👉 Please run the app locally to see real-time AI video analysis."
+        )
+    else:
+        with st.spinner("Processing video… please wait"):
+            run_dir = process_video(video_path)
+
 
     csv_path = os.path.join(run_dir, "traffic_log.csv")
     df = pd.read_csv(csv_path)
