@@ -1,0 +1,9 @@
+__pycache__/
+.env
+*.mp4
+*.avi
+*.mov
+uploads/
+history/
+latest_frame.jpg
+.yolo/
