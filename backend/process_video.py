@@ -1,12 +1,13 @@
-import cv2
-import csv
-import math
-import os
-import json
-from datetime import datetime
+def process_video(video_path):
+    import cv2          # 👈 MOVE INSIDE FUNCTION
+    import csv
+    import math
+    import os
+    import json
+    from datetime import datetime
+    from ultralytics import YOLO
+    from deep_sort_realtime.deepsort_tracker import DeepSort
 
-from ultralytics import YOLO
-from deep_sort_realtime.deepsort_tracker import DeepSort
 
 # ======================================================
 # LOAD MODEL ONCE (CRITICAL PERFORMANCE OPTIMIZATION)
