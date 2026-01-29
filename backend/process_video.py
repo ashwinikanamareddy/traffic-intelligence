@@ -1,5 +1,5 @@
 def process_video(video_path):
-    import cv2          # 👈 MOVE INSIDE FUNCTION
+    import cv2
     import csv
     import math
     import os
@@ -8,12 +8,9 @@ def process_video(video_path):
     from ultralytics import YOLO
     from deep_sort_realtime.deepsort_tracker import DeepSort
 
-
-# ======================================================
-# LOAD MODEL ONCE (CRITICAL PERFORMANCE OPTIMIZATION)
-# ======================================================
-MODEL = YOLO("yolov8n.pt")
-TRACKER = DeepSort(max_age=30)
+    # ================= MODEL INIT (INSIDE FUNCTION) =================
+    model = YOLO("yolov8n.pt")
+    tracker = DeepSort(max_age=30)
 
 # ======================================================
 # MAIN FUNCTION
