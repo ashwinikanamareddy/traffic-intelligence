@@ -178,3 +178,8 @@ This project emphasizes design clarity, correctness, explainability, and real-wo
 The goal is to demonstrate system-level thinking in solving traffic challenges using AI
 Built for NETRIK National Hack 2026
 Turning traffic data into actionable intelligence.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/174c2389-7eee-49d9-97f6-11369c5ffa07" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cda98e19-19e9-4b4d-9d26-c0e452167de9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9435b5f-bb6c-4178-a7be-4dca7ec6ffc6" />
+![Uploading image.png…]()
+
