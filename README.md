@@ -179,7 +179,10 @@ The goal is to demonstrate system-level thinking in solving traffic challenges u
 Built for NETRIK National Hack 2026
 Turning traffic data into actionable intelligence.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/174c2389-7eee-49d9-97f6-11369c5ffa07" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cda98e19-19e9-4b4d-9d26-c0e452167de9" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9435b5f-bb6c-4178-a7be-4dca7ec6ffc6" />
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/30ed7a7d-28fd-40b0-bf52-eaccc5630b23" />
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/64ac57c8-1e29-40a2-9a67-6068040d2fae" />
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/45c21487-15d7-4543-abef-1d7099596f9b" />
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/78a288ab-644c-4c26-9a01-3ed0f1267639" />
+
 ![Uploading image.png…]()
 
